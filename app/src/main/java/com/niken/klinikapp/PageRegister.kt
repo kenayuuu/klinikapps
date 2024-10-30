@@ -7,6 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.niken.klinikapp.screen.HomeDoctorActivity
 
 class PageRegister : AppCompatActivity() {
 
@@ -30,7 +31,7 @@ class PageRegister : AppCompatActivity() {
             //intent 2 : intent implicit dan intent explicit
             //inten implicit : intent kita buat sendiri dan yang belaku didalam project
             //intent expilicit : kita memanggil pihak ketiga / third party / libray : gmaps, gps,
-            val intentMenu2 = Intent(this@PageRegister, PageLogin::class.java)
+            val intentMenu2 = Intent(this@PageRegister, HomeDoctorActivity::class.java)
             startActivity(intentMenu2)
         }
     }

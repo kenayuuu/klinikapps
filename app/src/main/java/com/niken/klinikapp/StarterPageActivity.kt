@@ -33,5 +33,7 @@ class StarterPageActivity : AppCompatActivity() {
             val intentMenu2 = Intent(this@StarterPageActivity, PageLogin::class.java)
             startActivity(intentMenu2)
         }
+
+
     }
 }
